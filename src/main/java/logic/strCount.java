@@ -2,6 +2,7 @@ package logic;
 
 public class strCount {
     public strCount() {
+
     }
 
     public int count(int str) {
@@ -9,4 +10,11 @@ public class strCount {
         ret += str;
         return ret;
     }
+
+//    public int countInt() {
+//        int ret = 0;
+//        ret += str;
+//        return ret;
+//    }
+
 }

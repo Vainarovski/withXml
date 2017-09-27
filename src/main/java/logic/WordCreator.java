@@ -17,11 +17,11 @@ public List<int> symbols ;
     private strCount result = new strCount();
 
     public int createWord(){
+        int r=0;
         for (int symbol : symbols) {
-            result.count(symbol);
+            r = result.count(symbol);
         }
-
-        return result.count();
+        return r;
 
     }
 }
